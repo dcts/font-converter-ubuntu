@@ -48,7 +48,8 @@ eot2ttf ${EOT_PATH} ${TTF_PATH}
 
 WOFF_PATH="$DESTINATION/$FILENAME.woff"
 echo "[OTF --> WOFF]: (over-)write to $WOFF_PATH"
-sfnt2woff ${SOURCE} > ${WOFF_PATH}
+sfnt2woff ${SOURCE}
+mv "./$FILENAME.woff" "./$DESTINATION/$FILENAME.woff"
 
 WOFF2_PATH="$DESTINATION/$FILENAME.woff2"
 echo "[TTF -> WOFF2]: (over-)write to $WOFF2_PATH"
