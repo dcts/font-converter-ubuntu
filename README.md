@@ -4,14 +4,13 @@ This does only work for Ubuntu. Taken from this [article by Jan Küster](https:/
 
 ## Prerequisites
 You need to have the following packages installed:
-```
+
 |package|command|description|
 |---|---|---|
 |`eot-utils`|`mkeot`|convert otf to eot|
 |`eot2ttf`|`eot2ttf`|convert eot to ttf|
 |`woff-tools`|`sfnt2woff`|convert otf to woff|
 |`woff2`|`woff2_compress`|convert ttf to woff2|
-```
 
 you can install them with:
 ```bash
