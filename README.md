@@ -27,6 +27,20 @@ which woff2_compress
 ```
 
 # Usage
-```
+```bash
 convertOtf input.otf /path/to/output/
+
+# EXAMPLE
+mkdir out
+convertOtf myFont-otf out
+```
+
+# make script runnable and add to PATH
+Inside the repo, run
+```bash
+# make runnable
+sudo chmod +x ./convertOtf
+
+# add current directory to your PATH
+pwd # copy the directory and add to your PATH
 ```
